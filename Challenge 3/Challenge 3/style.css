@@ -1,0 +1,135 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /* font= normal 16px Arial, Helvetica, sans-serif;*/
+    line-height: 1.6em;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: green;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.button {
+    background-color: black;
+    color: blue;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+}
+.button:hover {
+    background-color: yellow;
+    color: black;
+}
+.clr {
+    clear: both;
+}
+/*
+a:visited {
+    color: yellow;
+}*/
+.box-1 {
+    background-color: #333;
+    color: rgb(151, 240, 151);
+    border: 5px red solid;
+    border-style: dotted;
+    padding-top: 15px;
+    padding: 15px;
+    margin: 20px 0;
+}
+.box-1 h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    word-spacing: 0.05em;;
+}
+.box-2 {
+    border: 3px dashed #f8f404;
+    padding: 20px;
+    margin: 20px 0;
+}
+.categories {
+    border: 6px solid #750505c9;
+    padding: 20px;
+    border-radius: 9px;
+}
+.categories h2 {
+    text-align: center;
+}
+.categories ul {
+    padding: 0;
+    list-style: square;
+}
+.categories li {
+    padding-bottom: 8px;
+    border-bottom: dotted 3px rgb(156, 158, 16);
+    /*list-style-image: url("../images/checkbox.png");*/
+}
+.my-form {
+    padding: 20px;
+
+}
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-block {
+    float: left;
+    width: 70%; 
+    padding: 15px;
+    box-sizing: border-box; 
+}
+#sidebar {
+    float: right;
+    width: 30%;  
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.p-box {
+    width: 100%;
+    height: 300px;
+    border: 4px solid #ccc;
+    margin-top: 40px;
+    position: relative;
+    background-color: #f8f404;
+    background-position: 100px 200px;
+}
+.p-box h1 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.p-box h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
